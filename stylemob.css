@@ -1,0 +1,243 @@
+
+@media screen and (min-width: 360px)
+    
+{
+.menu {
+   
+    padding: 3px;
+    font-family:  Arial;
+    color: rgb(74, 63, 85);
+    text-align: center;
+    
+
+}
+header span a {
+
+display: inline-table;
+size: 100%;
+
+}
+img{
+    padding-left: 3px;
+    justify-items: center;
+  
+}
+section article p{
+    padding: 3px;
+}
+section article h1{
+    padding: 3px;
+}
+a:hover{
+    background-color:rgb(94, 190, 228);
+}
+
+
+.menu a {
+   
+    text-decoration:none ;
+   
+   
+
+}
+nav a{
+    text-decoration:none ;
+    size: 20%;
+  
+
+}
+nav  ul{
+    list-style-type: none;
+    display:flex;
+    padding: 2px;
+
+}
+
+nav  ul a{
+
+ padding: 3px;
+
+   
+}
+header img{
+    display: block;
+}
+p{
+    padding: 10px;
+  
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(42, 9, 185);
+    color: white;
+  
+  }
+
+.border1{
+ 
+    padding-top:5px;
+
+  
+    height: 150px;
+    width:90%;
+    background-color: white;
+    border: 2px solid rgb(7, 7, 7);
+    display: inline-table;
+}
+
+div p {
+  color: rgb(196, 193, 211);
+  padding-left: 2px;
+}
+.color{
+    color: rgb(90, 173, 127);
+}
+div a {
+    text-decoration: none;
+    
+   
+  
+}
+
+.border2 {
+ 
+     border-bottom: 50%;
+    }
+
+.border2 a {
+    display: inline-block;
+    margin-top: 40%;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu {
+   
+    padding: 20px;
+    font-family:  Arial;
+    color: rgb(74, 63, 85);
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+
+}
+a:hover{
+    background-color:rgb(94, 190, 228);
+}
+section article p{
+
+    padding-right: 500px;
+
+    padding-left: 10px;
+}
+
+.menu a {
+   
+    text-decoration:none ;
+
+}
+nav a{
+    text-decoration:none ;
+    size: 20%;
+
+}
+nav  ul{
+    list-style-type: none;
+    display:flex;
+    padding: 2px;
+
+}
+
+nav  ul a{
+ margin: 12px;
+
+   
+}
+header{
+    display: table;
+}
+p{
+    padding: 10px;
+  
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(42, 9, 185);
+    color: white;
+  
+  }
+
+.border1{
+   
+    padding-top:5px;
+    padding-left :5px;
+    padding-right:5px ;
+    height: 150px;
+    width:100px;
+    background-color: white;
+    border: 2px solid rgb(7, 7, 7);
+    display: inline-table;
+}
+
+div p {
+  color: rgb(196, 193, 211);
+  padding-left: 2px;
+}
+.color{
+    color: rgb(90, 173, 127);
+}
+div a {
+    text-decoration: none;
+    
+   
+  
+}
+
+.border2 {
+ 
+     border-bottom: 20%;
+    }
+
+.border2 a {
+    display: inline-block;
+    margin-top: 40%;
+}
+
+
+}
+
+
+

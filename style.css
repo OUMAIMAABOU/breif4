@@ -1,19 +1,31 @@
-
+body{
+   
+    
+}
 .menu {
    
-    padding: 3px;
+    padding: 2px;
     font-family:  Arial;
     color: rgb(74, 63, 85);
     text-align: center;
     
 
 }
-header span a {
-
-display: inline-table;
-size: 100%;
+header{
+    background-color: white;
+    left: 0;
+    top: 0;
+    width: 100%;
 
 }
+header span a {
+display: inline-table;
+size: 100%;
+color: black;
+font-size: large;
+content: " / ";
+}
+
 img{
     padding-left: 3px;
     padding-right: 3px;
@@ -26,7 +38,7 @@ section article h1{
     padding: 3px;
 }
 a:hover{
-    background-color:rgb(94, 190, 228);
+    background-color:rgba(94, 190, 228, 0.615);
 }
 
 
@@ -40,7 +52,6 @@ a:hover{
 nav a{
     text-decoration:none ;
     size: 20%;
-  
 
 }
 nav  ul{
@@ -73,7 +84,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(42, 9, 185);
+    background-color: rgba(41, 9, 185, 0.309);
     color: white;
   
   }
@@ -86,17 +97,15 @@ footer {
     height: 150px;
     width:90%;
     background-color: white;
-    border: 2px solid rgb(7, 7, 7);
+    border: 30px solid rgb(7, 7, 7);
     display: inline-table;
 }
 
 div p {
-  color: rgb(196, 193, 211);
+  color: rgb(168, 9, 44);
   padding-left: 2px;
 }
-.color{
-    color: rgb(90, 173, 127);
-}
+
 div a {
     text-decoration: none;
     
@@ -200,7 +209,7 @@ footer {
 }
 
 div p {
-  color: rgb(196, 193, 211);
+  color: rgb(50, 15, 230);
   padding-left: 2px;
 }
 .color{
@@ -225,7 +234,12 @@ div a {
 
 
 }
-        
+    .breadcamps-containner a{
+        color:black;
+    }
+    .breadcamps-containner li+li::before{
+        content: "/";
+    }    
 
 
     
